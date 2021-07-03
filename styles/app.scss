@@ -1,0 +1,192 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+@import "./button";
+@import "./navbar";
+@import "./hero";
+@import "./aboutme";
+@import "./mywork";
+@import "./contactme";
+@import "./footer";
+@import "./darkmode";
+
+//global styles
+* {
+    padding: 0;
+    margin: 0;
+    font-family: $main-font;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+body {
+    font-family: $main-font;
+    background: white;
+}
+
+#__next {
+    background-image: url("/images/bg.svg");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    img {
+        width: 100%;
+    }
+}
+
+.section-title {
+    font-size: rem(30px);
+    font-weight: 800;
+    position: relative;
+    color: $main-black;
+    &.white {
+        color: white !important;
+        &:after {
+            background: rgb(255, 255, 255, 0.3);
+        }
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        left: -6px;
+        top: 13px;
+        width: 13px;
+        background: rgba($color: $main-purple, $alpha: 0.27);
+        height: 80%;
+    }
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.form-group {
+    label {
+        color: $main-black;
+        font-weight: 700;
+        font-size: rem(14px);
+    }
+    .form-control {
+        background: #f3f5ff;
+        border: none;
+        font-size: 16px;
+        padding: 27px 0;
+        text-indent: 20px;
+        border: 1px solid rgba(27, 21, 21, 0.12);
+        font-size: 1rem;
+        transition: 0.3s ease;
+        &.is-invalid {
+            border: 1px solid #e3342f !important;
+        }
+        &:focus {
+            border: 1px solid $main-purple;
+            box-shadow: none;
+            outline: none;
+        }
+    }
+    textarea {
+        padding: 15px 0 !important;
+        height: 200px;
+        resize: none;
+    }
+}
+
+.toggle-dark-mode {
+    position: fixed;
+    z-index: 10;
+    bottom: 30px;
+    right: 30px;
+    height: 45px;
+    width: 145px;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    padding: 10px 5px;
+    font-weight: 600;
+    box-shadow: 0 4px 26px 3px rgb(6, 6, 6, 0.06);
+    background: #1d1d1d;
+    color: white;
+    .btn-wrapper {
+        position: relative;
+        height: 100%;
+        .btn-text {
+            transition: 0.3s ease;
+            position: absolute;
+            left: 0%;
+            &:before {
+                content: "dark mode";
+                transition: 0.3s ease;
+                text-transform: uppercase;
+                font-size: 12px;
+                margin: 0 8px;
+            }
+        }
+        .icon {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            height: 35px;
+            width: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50px;
+            background: #3a49cc;
+            color: white;
+            transition: 0.3s ease;
+            font-size: rem(17px);
+            svg {
+                position: absolute;
+                transition: 0.3s ease;
+                transform: translateX(0%) rotate(360deg);
+                &:last-of-type {
+                    color: #ffaf76;
+                    opacity: 0;
+                }
+            }
+        }
+    }
+
+    &.dark {
+        .icon {
+            right: 75%;
+            svg {
+                transform: translateX(0%) rotate(0deg);
+                &:first-of-type {
+                    opacity: 0;
+                }
+                &:last-of-type {
+                    opacity: 1;
+                }
+            }
+        }
+
+        .btn-text {
+            left: 27%;
+            &:before {
+                content: "light mode";
+            }
+        }
+
+        background: white;
+        color: $main-black;
+    }
+}

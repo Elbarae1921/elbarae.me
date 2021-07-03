@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.028" y1="0.32" x2="1" y2="0.676" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2298bd"/>
+      <stop offset="1" stop-color="#0ed7b5"/>
+    </linearGradient>
+  </defs>
+  <g id="javascript" transform="translate(-90 -110)">
+    <rect id="Rectangle_42" data-name="Rectangle 42" width="30" height="30" rx="4" transform="translate(90 110)" fill="#fff"/>
+    <path id="tailwindcss" d="M15,0Q9,0,7.5,6q2.25-3,5.25-2.25a6.4,6.4,0,0,1,2.859,2.029C17.08,7.272,18.782,9,22.5,9q6,0,7.5-6-2.25,3-5.25,2.25a6.4,6.4,0,0,1-2.859-2.029C20.42,1.728,18.718,0,15,0ZM7.5,9Q1.5,9,0,15q2.25-3,5.25-2.25a6.4,6.4,0,0,1,2.859,2.029C9.58,16.272,11.282,18,15,18q6,0,7.5-6-2.25,3-5.25,2.25a6.4,6.4,0,0,1-2.859-2.029C12.92,10.728,11.218,9,7.5,9Z" transform="translate(90 116.4)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

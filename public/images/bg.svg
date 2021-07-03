@@ -1,0 +1,20 @@
+<svg id="bg" xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <path id="Path_19" data-name="Path 19" d="M0,0H1920V1080H0Z" fill="none"/>
+  <path id="Path_18" data-name="Path 18" d="M0,0V532" transform="translate(1638.5 1.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.14"/>
+  <path id="Path_17" data-name="Path 17" d="M0,0V415" transform="translate(1638.5 575.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.14"/>
+  <g id="Path_16" data-name="Path 16" transform="translate(1631 547)" fill="none" opacity="0.3">
+    <path d="M8,0l.8,7.2L16,8l-7.2.8L8,16,7.2,8.8,0,8l7.2-.8Z" stroke="none"/>
+    <path d="M 8 0 L 8.800000190734863 7.199999809265137 L 16 8 L 8.800000190734863 8.800000190734863 L 8 16 L 7.199999809265137 8.800000190734863 L 0 8 L 7.199999809265137 7.199999809265137 L 8 0 Z" stroke="none" fill="#707070"/>
+  </g>
+  <path id="Path_15" data-name="Path 15" d="M0,0V288" transform="translate(1445.5 132.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.14"/>
+  <path id="Path_14" data-name="Path 14" d="M0,0V111" transform="translate(1445.5 450.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.14"/>
+  <path id="Path_13" data-name="Path 13" d="M0,0V102.5" transform="translate(1445.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.14"/>
+  <path id="Path_12" data-name="Path 12" d="M0,0V569" transform="translate(343.5 1.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.14"/>
+  <g id="Path_11" data-name="Path 11" transform="translate(335 598)" fill="none" opacity="0.3">
+    <path d="M8,0l.8,7.2L16,8l-7.2.8L8,16,7.2,8.8,0,8l7.2-.8Z" stroke="none"/>
+    <path d="M 8 0 L 8.800000190734863 7.199999809265137 L 16 8 L 8.800000190734863 8.800000190734863 L 8 16 L 7.199999809265137 8.800000190734863 L 0 8 L 7.199999809265137 7.199999809265137 L 8 0 Z" stroke="none" fill="#707070"/>
+  </g>
+  <path id="Path_10" data-name="Path 10" d="M0,0V713" transform="translate(119.5 0.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.14"/>
+  <path id="Path_9" data-name="Path 9" d="M0,0V111" transform="translate(119.5 778.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.14"/>
+  <path id="Path_8" data-name="Path 8" d="M0,0V285" transform="translate(575.5 1.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.14"/>
+</svg>

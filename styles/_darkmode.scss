@@ -1,0 +1,118 @@
+body {
+    &:not(.darkmode) {
+        .logo {
+            .logo-white{
+                display:none;
+            }
+        }
+    }
+    &.darkmode {
+        $orange:#ff6a00;
+        background: #232323;
+        h1,h2,h3,h4,h5,h6 {
+            color:white;
+        }
+
+        p {
+            color:#b3b3b3;
+            &:after {
+                border-color:$orange;
+            }
+        }
+
+        .about-body  {
+            &:after {
+                border-color:$orange;
+            }
+        }
+
+        .logo {
+            .logo-black{
+                display:none;
+            }
+        }
+
+        .work-loader {
+            .spinner-border {
+                color:$orange !important;
+            }
+        }
+
+        .work {
+            .work-loader {
+                background:rgb(35 35 35) !important;
+            }
+        }
+        .skill {
+            color:$orange;
+            span {
+                color:white;
+            }
+        }
+
+        .section-title {
+            color:white;
+            &:after {
+                background: rgba($color:white, $alpha:.3);
+            }
+        }
+
+        .btn-purple {
+            background:$orange;
+             &:after {
+                box-shadow:none;
+            }
+            &.outline {
+                color:$main-black;
+            }
+        }
+
+        .via-email {
+            background: #232323;
+            border: 1px solid #404040;
+            label {
+                color:white;
+            }
+
+            input, textarea {
+                border: 1px solid rgb(255,253,253, .1);
+                background: transparent;
+                color:white;
+                &:focus{
+                    border-color:$orange;
+                }
+            }
+        }
+
+        .scrolled {
+            border-bottom: 1px solid #424242;
+            background:#1f1f1f;
+        }
+
+        footer {
+            background: #232323;
+            border-top: 1px solid #5d5d5d;
+            a {
+                &:hover {
+                    color:white;
+                }
+            }
+            h3 {
+                color:#87918e;
+            }
+        }
+
+        .main-nav {
+            a {
+                &:hover {
+                    color:white !important;
+                    &:after {
+                        background:rgba($color:$orange, $alpha:.45);
+                    }
+                }
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,36 @@
+.about {
+    p{
+        font-size: rem(16px); 
+        font-weight: 500;
+        line-height: 31px;
+        margin-top: 55px;
+        width:100%;
+        max-width: 400px;
+    }
+
+    .about-body {
+        position: relative;
+        &:after {
+            content:"";
+            position:absolute;
+            border-bottom:2px solid $main-purple;
+            height:100%;
+            bottom:0;
+            width: 100px;
+            right: 0;
+        }
+    }
+    
+    .skill {
+        font-size: rem(20px);
+        color: $main-purple;
+        width:200px;
+        margin-bottom:20px;
+        span {
+            font-size: rem(16px);
+            color:$main-black;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+    }
+}
