@@ -32,20 +32,22 @@ function NavBar() {
                 className={"top-nav" + (scrolled ? " scrolled" : "")}
             >
                 <div className="container h-100 d-flex align-items-center">
-                    {/* <div className="logo">
+                    <div className="logo">
+                        {/* eslint-disable-next-line */}
                         <img
                             draggable="false"
                             className="logo-black"
                             src="/images/logo.svg"
                             alt="Elbarae website logo"
                         />
+                        {/* eslint-disable-next-line */}
                         <img
                             draggable="false"
                             className="logo-white"
                             src="/images/logo-white.svg"
                             alt="Elbarae website logo"
                         />
-                    </div> */}
+                    </div>
                     <div className="main-nav d-flex align-items-center">
                         <nav className="mr-auto">
                             <ul className="d-flex">
