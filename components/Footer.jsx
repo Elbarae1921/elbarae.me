@@ -7,12 +7,10 @@ function Footer() {
         <footer>
             <div className="container h-100 py-4 d-flex flex-column flex-md-row align-items-center justify-content-between">
                 <div className="d-flex flex-column flex-md-row  align-items-center">
-                    <div className="logo mr-2">
-                        {/* eslint-disable-next-line */}
-                        <img className="logo-black" src="/images/logo.svg" alt="Elbarae logo" />
-                        {/* eslint-disable-next-line */}
-                        <img className="logo-white" src="/images/logo-white.svg" alt="Elbarae logo" />
-                    </div>
+                    {/* <div className="logo mr-2">
+                        <img className="logo-black" src="/images/logo.svg" alt="Elbarae logo" draggable="false" />
+                        <img className="logo-white" src="/images/logo-white.svg" alt="Elbarae logo" draggable="false" />
+                    </div> */}
                     <div className="footer-links mt-3 mt-md-0 ml-md-4">
                         <ul className="d-flex flex-wrap">
                             <li>

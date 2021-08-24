@@ -22,23 +22,25 @@ export default function Home() {
     return (
         <>
             <Head>
-                <meta charset="UTF-8"/>
+                <meta charSet="UTF-8"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                 <meta httpEquiv="X-UA-Compatible" content="ie=edge"/>
-                <title>Full-time freelancer as Web Developer and UI/UX Designer</title>
-                <meta name="title" content="Full-time freelancer as Web Developer and UI/UX Designer"/>
-                <meta name="description" content="I'm a full-time freelancer as a web Developer And UI/UX Designer, Worked on various types of projects and I'm confident you'll enjoy working with me."/>
+                <title>Elbarae Rguig</title>
+                <meta name="title" content="Elbarae Rguig"/>
+                <meta name="description" content="A self taught Fullstack Javascript developer"/>
 
                 <meta property="og:type" content="website"/>
-                <meta property="og:url" content="http://zakariabenali.me/"/>
-                <meta property="og:title" content="Full-time freelancer as Web Developer and UI/UX Designer"/>
-                <meta property="og:description" content="I'm a full-time freelancer as a web Developer And UI/UX Designer, Worked on various types of projects and I'm confident you'll enjoy working with me."/>
+                <meta property="og:url" content="https://elbarae.me/"/>
+                <meta property="og:title" content="Elbarae Rguig"/>
+                <meta property="og:description" content="A self taught Fullstack Javascript developer"/>
+                {/* to do: add og image */}
                 <meta property="og:image" content=""/>
 
                 <meta property="twitter:card" content="summary_large_image"/>
-                <meta property="twitter:url" content="http://zakariabenali.me/"/>
-                <meta property="twitter:title" content="Full-time freelancer as Web Developer and UI/UX Designer"/>
-                <meta property="twitter:description" content="I'm a full-time freelancer as a web Developer And UI/UX Designer, Worked on various types of projects and I'm confident you'll enjoy working with me."/>
+                <meta property="twitter:url" content="https://elbarae.me/"/>
+                <meta property="twitter:title" content="Elbarae Rguig"/>
+                <meta property="twitter:description" content="A self taught Fullstack Javascript developer"/>
+                {/* to do: add twitter image */}
                 <meta property="twitter:image" content=""/>
             </Head>
 

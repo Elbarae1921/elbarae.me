@@ -36,6 +36,7 @@ function ProjectCard({ project }) {
                 <h3>{description}</h3>
                 {/* eslint-disable-next-line */}
                 <img
+                    draggable="false"
                     className="showcase d-none d-md-block"
                     src={"/images/work/" + showcase}
                     alt={title}
@@ -51,6 +52,7 @@ function ProjectCard({ project }) {
                                     <div className="image">
                                         {/* eslint-disable-next-line */}
                                         <img
+                                            draggable="false"
                                             src={"/images/technologies/" + image}
                                             alt={image}
                                         />

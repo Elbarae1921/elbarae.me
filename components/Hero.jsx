@@ -8,17 +8,16 @@ function Hero({ domLoaded }) {
     return (
         <SectionLayout classes="hero d-flex pt-5" id="hero">
             <div className="col-lg-6">
-                <h1>Attract customers like never before.</h1>
+                <h1>Hello There 👋!</h1>
                 <p>
-                    A website promotes it brand 24/7, No employee does that,
-                    That is why i make sure its perfect
+                I’m Elbarae &amp; I’m a self-taught Fullstack Javascript developer!
                 </p>
                 <div className="buttons d-flex flex-wrap mr-3">
                     <a
                         href="#contact"
                         className="btn-purple d-flex align-items-center ml-md-auto mb-2 mb-md-0 mr-3"
                     >
-                        <span>Hire me</span>
+                        <span>Get in touch</span>
                         <div className="icon ml-2">
                             <FiChevronDown />
                         </div>

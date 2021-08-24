@@ -15,7 +15,7 @@ function Index() {
             </SectionLayout> */}
             <SectionLayout classes="contact-email">
                 <div className="via-email col-12 mt-5 mb-5 p-3 p-md-5">
-                    <SectionTitle text="Drop me a line!" />
+                    <SectionTitle text="Say Hi!" />
                     <ContactForm />
                 </div>
             </SectionLayout>
