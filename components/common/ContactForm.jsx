@@ -124,8 +124,8 @@ function Email() {
                         values.name &&
                         values.email &&
                         values.message &&
-                        process.env.NODE_ENV !== 'development' && (
-                            <input>
+                        (
+                            <>
                                 <FastField
                                     component={Recaptcha}
                                     sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_KEY}
@@ -133,7 +133,7 @@ function Email() {
                                     onChange={(value) => setFieldValue('recaptcha', value)}
                                 />
                                 <ErrorMessage component={ErrorDiv} name="recaptcha" />
-                            </input>
+                            </>
                     )}
                     <button
                         type="submit"
