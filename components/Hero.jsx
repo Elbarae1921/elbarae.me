@@ -25,7 +25,7 @@ function Hero({ domLoaded }) {
 
                     <a
                         href="#work"
-                        className="btn-purple outline d-flex align-items-center mr-4"
+                        className="btn-purple outline d-flex align-items-center mb-2 mb-md-0 mr-4"
                     >
                         <span>My work</span>
                         <div className="icon ml-2">
