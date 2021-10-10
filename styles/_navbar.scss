@@ -1,14 +1,11 @@
 .top-nav {
-    height: 105px;
-    &.scrolled {
-        height: 76px !important;
-        position: fixed;
-        width: 100%;
-        background: #fff;
-        z-index: 4;
-        top: 0;
-        box-shadow: 0 1px 10px rgb(0, 0, 0, 0.08);
-    }
+    height: 76px;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    z-index: 4;
+    top: 0;
+    box-shadow: 0 1px 10px rgb(0, 0, 0, 0.08);
     .logo {
         flex-shrink: 0;
         width: 105px;
