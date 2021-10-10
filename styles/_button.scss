@@ -18,6 +18,9 @@
             color:$main-purple;
         }
     }
+    &.outline-transparent {
+        border:1px solid transparent;
+    }
     &:disabled {
         opacity: 0.7;
     }

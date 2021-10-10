@@ -15,7 +15,7 @@ function Hero({ domLoaded }) {
                 <div className="buttons d-flex flex-wrap mr-3">
                     <a
                         href="#contact"
-                        className="btn-purple d-flex align-items-center ml-md-auto mb-2 mb-md-0 mr-3"
+                        className="btn-purple outline-transparent d-flex align-items-center ml-md-auto mb-2 mb-md-0 mr-3"
                     >
                         <span>Get in touch</span>
                         <div className="icon ml-2">
