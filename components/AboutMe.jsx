@@ -24,8 +24,8 @@ function AboutMe({ domLoaded }) {
                 <SectionTitle text="More about me" />
                 <div className="about-body ml-lg-4 pl-lg-3 pb-5">
                     <p>
-                        I&quot;m currently a software developer (mostly backend) working remotely at
-                        &nbsp;<a href="https://devotech.co/" target="_blank" rel="noreferrer">Devotech</a>.
+                        I&quot;m currently a Full-stack developer (mostly Flutter and some Ops) at
+                        &nbsp;<a href="https://bewizyu.com/" target="_blank" rel="noreferrer">Bewizyu</a>.
                         I love javascript and I love using it to build wonderful things.<br/>
                         Some of the tools I also love to play with:
                     </p>
@@ -57,7 +57,7 @@ function AboutMe({ domLoaded }) {
 
                         <div className="skill">
                             <FiBox />
-                            <span>React &amp; React Native</span>
+                            <span>React &amp; NextJS</span>
                         </div>
 
                         <div className="skill">
@@ -67,7 +67,7 @@ function AboutMe({ domLoaded }) {
 
                         <div className="skill">
                             <FiBox />
-                            <span>NextJS</span>
+                            <span>Flutter</span>
                         </div>
                     </div>
                 </div>
