@@ -1,0 +1,20 @@
+.contact {
+  background-image: url('/images/bg.svg');
+}
+
+.via-email {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 64px 20px rgb(57 47 86 / 8%);
+}
+
+@keyframes arrowRight {
+  0% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+}
