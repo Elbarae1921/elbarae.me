@@ -39,6 +39,15 @@ export const NavBar = () => {
                 <li>
                   <a href="#contact">Contact me</a>
                 </li>
+                <li>
+                  <a
+                    href="https://blog.elbarae.me"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Blog
+                  </a>
+                </li>
               </ul>
             </nav>
             <a href="#contact" className="btn-purple d-flex align-items-center">

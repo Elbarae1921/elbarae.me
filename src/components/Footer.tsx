@@ -42,6 +42,15 @@ export const Footer = () => {
                   Linkedin
                 </a>
               </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://blog.elbarae.me"
+                >
+                  Blog
+                </a>
+              </li>
             </ul>
           </div>
         </div>

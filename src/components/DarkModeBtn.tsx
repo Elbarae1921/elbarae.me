@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { IoSunnySharp, IoMoonSharp } from 'react-icons/io5';
 
 export const DarkModeBtn = () => {
-  const [isDark, setDark] = useState(false);
+  const [isDark, setDark] = useState(true);
 
   useEffect(() => {
-    document.body.classList.toggle('darkmode', isDark);
+    document.body.classList.toggle('darkmode', !isDark);
   }, [isDark]);
 
   useEffect(() => {

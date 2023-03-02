@@ -42,6 +42,15 @@ export const SideMenu = ({ classes, closeMenu }: SideMenuProps) => {
         >
           <a href="#contact">Contact me</a>
         </li>
+        <li
+          onClick={() => {
+            closeMenu(false);
+          }}
+        >
+          <a href="https://blog.elbarae.me" rel="noreferrer" target="_blank">
+            Blog
+          </a>
+        </li>
       </ul>
     </div>
   );
